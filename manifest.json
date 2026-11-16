@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Anime Adventurer Guild BP",
+    "description": "Anime-style Adventurer Guild Add-on",
+    "uuid": "a81d9b42-72c1-4c53-9a61-83d4c2e7f105",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "b92eac53-83d2-4d64-a172-94e5d3f8a216",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "c03fbd64-94e3-4e75-b283-a5f6e4a9b327",
+      "entry": "scripts/main.js",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    }
+  ]
+}
